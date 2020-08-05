@@ -1,0 +1,34 @@
+body {
+    width: 1440px;
+    margin: 50px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+}
+#logo {
+    float: left;
+}
+.navbar {
+    background-color: grey;
+}
+.navbar a {
+    color: black;
+    font-weight: 700;
+}
+#login {
+    color: hsl(207, 33%, 95%);
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+/* #laptopimg {
+    width: 900px;
+} */
