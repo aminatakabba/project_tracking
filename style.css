@@ -10,7 +10,7 @@ header {
     float: left;
 }
 .navbar {
-    background-color: grey;
+    z-index: 2;
 }
 .navbar a {
     color: black;
@@ -22,6 +22,7 @@ header {
 main {
     display: flex;
     flex-direction: row;
+    z-index: 3;
 }
 .left {
     float: left;
@@ -32,3 +33,13 @@ main {
 /* #laptopimg {
     width: 900px;
 } */
+.roundsquare {
+    background-color: hsl(207, 33%, 95%);
+    width: 900px;
+    height: 500px;
+    border-bottom-left-radius: 50px;
+    position: absolute;
+    z-index: -1;
+    margin-top: -50px;
+    float: right;
+}
