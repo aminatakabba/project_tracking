@@ -9,9 +9,9 @@ header {
 #logo {
     float: left;
 }
-.navbar {
+/* .navbar {
     z-index: 2;
-}
+} */
 .navbar a {
     color: black;
     font-weight: 700;
@@ -22,7 +22,6 @@ header {
 main {
     display: flex;
     flex-direction: row;
-    z-index: 3;
 }
 .left {
     float: left;
@@ -30,16 +29,12 @@ main {
 .right {
     float: right;
 }
-/* #laptopimg {
-    width: 900px;
-} */
 .roundsquare {
     background-color: hsl(207, 33%, 95%);
-    width: 900px;
+    width: 950px;
     height: 500px;
     border-bottom-left-radius: 50px;
+    z-index: auto;
     position: absolute;
-    z-index: -1;
     margin-top: -50px;
-    float: right;
 }
